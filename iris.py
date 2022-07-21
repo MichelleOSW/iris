@@ -8,7 +8,7 @@ This app predicts the **Iris flower** type!
 """)
 
 from PIL import Image
-image = Image.open('photo-1589312397744-799d9f9c2944.webp')
+image = Image.open('photo-1624707787338-d0f54a335235.webp')
 
 st.image(image, caption='Iris Flower')
 
