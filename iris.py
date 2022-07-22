@@ -49,7 +49,7 @@ cl = { 'Iris-setosa',
        'Iris-virginica'}
 
 pd.DataFrame( cl, index=[0:3]
-st.table(cl)
+st.write(cl)
 
 st.subheader('Prediction')
 #st.write(iris.target_names[prediction])
