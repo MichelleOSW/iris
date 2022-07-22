@@ -43,10 +43,10 @@ prediction = clf.predict(df)
 prediction_proba = clf.predict_proba(df)
 
 st.subheader('Class labels and their corresponding index number')
-
-|      0        |       1       |      2       |
-| ------------- |:-------------:| ------------:|
-| Iris-setosa   | Iris-versicolor |  Iris-virginica  |
+st.write 
+|        0        |        1        |        2       |
+| --------------  |:---------------:| --------------:|
+| 'Iris-setosa'   |'Iris-versicolor'|'Iris-virginica'|
 
 
 st.subheader('Prediction')
