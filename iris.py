@@ -48,7 +48,7 @@ cl = { 'Iris-setosa',
        'Iris-versicolor',
        'Iris-virginica'}
 
-pd.DataFrame( cl, index=[0:3]
+pd.DataFrame( cl, index=[0] )
 st.write(cl)
 
 st.subheader('Prediction')
