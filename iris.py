@@ -40,7 +40,6 @@ clf.fit(X, Y)
 
 prediction = clf.predict(df)
 prediction_proba = clf.predict_proba(df)
-st.spinner(text="In progress...")
 
 
 st.subheader('Class labels and their corresponding index number')
