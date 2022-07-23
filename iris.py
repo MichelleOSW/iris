@@ -27,7 +27,6 @@ def user_input_features():
     return features
 
 df = user_input_features()
-st.spinner(text="In progress...")
 
 st.subheader('User Input parameters')
 st.write(df)
@@ -41,6 +40,8 @@ clf.fit(X, Y)
 
 prediction = clf.predict(df)
 prediction_proba = clf.predict_proba(df)
+st.spinner(text="In progress...")
+
 
 st.subheader('Class labels and their corresponding index number')
 df1 = (['Iris-setosa','Iris-versicolor','Iris-virginica']) 
