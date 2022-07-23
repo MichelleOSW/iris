@@ -55,5 +55,4 @@ st.write(prediction_proba)
 
 audio_file = open('htmat="audio/wav", start_time=0)tps://www.youtube.com/watch?v=SAh611hDVCc&list=PLRPR8uJQx5tFlsmCP-Bxa9JT7m9u3iiKl&index=2')
 audio_bytes = audio_file.read()
-
 st.audio(audio_bytes)
