@@ -27,6 +27,10 @@ def user_input_features():
     return features
 
 df = user_input_features()
+if st.button('Say hello'):
+     st.write('Why hello there')
+ else:
+     st.write('Goodbye')
 
 st.subheader('User Input parameters')
 st.write(df)
