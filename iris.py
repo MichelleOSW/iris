@@ -27,6 +27,7 @@ def user_input_features():
     return features
 
 df = user_input_features()
+st.spinner(text="In progress...")
 
 st.subheader('User Input parameters')
 st.write(df)
