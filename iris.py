@@ -23,7 +23,7 @@ def user_input_features():
             'sepal_width': sepal_width,
             'petal_length': petal_length,
             'petal_width': petal_width}
-    features = pd.DataFrame(data, index=0 )
+    features = pd.DataFrame(data, index = 0 )
     
     return features
 
@@ -31,7 +31,7 @@ df = user_input_features()
 
 
 st.subheader('User Input parameters')
-st.table(df)
+st.write(df)
 
 iris = pd.read_csv('https://raw.githubusercontent.com/MichelleOSW/iris/main/IRIS.csv')
 X = iris.drop('species',axis=1)
