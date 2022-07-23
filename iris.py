@@ -45,7 +45,7 @@ prediction_proba = clf.predict_proba(df)
 
 
 st.subheader('Class labels and their corresponding index number')
-st.table(iris.target_names)
+st.write(iris.target_names)
 
 st.subheader('Prediction')
 #st.write(iris.target_names[prediction])
