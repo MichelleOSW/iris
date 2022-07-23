@@ -27,11 +27,6 @@ def user_input_features():
     return features
 
 df = user_input_features()
-st.button(label, on_click)
-if st.button('Check'):
-     st.write('Progressing')
- else:
-     st.write('Done')
 
 st.subheader('User Input parameters')
 st.write(df)
@@ -57,3 +52,9 @@ st.write(prediction)
 
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
+
+st.audio(data, format="audio/wav", start_time=0)
+audio_file = open('https://www.youtube.com/watch?v=SAh611hDVCc&list=PLRPR8uJQx5tFlsmCP-Bxa9JT7m9u3iiKl&index=2')
+audio_bytes = audio_file.read()
+
+st.audio(audio_bytes, format='audio/ogg')
