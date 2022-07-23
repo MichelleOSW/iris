@@ -53,8 +53,7 @@ st.write(prediction)
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
 
-st.audio(data, format="audio/wav", start_time=0)
-audio_file = open('https://www.youtube.com/watch?v=SAh611hDVCc&list=PLRPR8uJQx5tFlsmCP-Bxa9JT7m9u3iiKl&index=2')
+audio_file = open('htmat="audio/wav", start_time=0)tps://www.youtube.com/watch?v=SAh611hDVCc&list=PLRPR8uJQx5tFlsmCP-Bxa9JT7m9u3iiKl&index=2')
 audio_bytes = audio_file.read()
 
 st.audio(audio_bytes, format='audio/ogg')
