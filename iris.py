@@ -42,7 +42,8 @@ prediction = clf.predict(df)
 prediction_proba = clf.predict_proba(df)
 
 st.subheader('Class labels and their corresponding index number')
-df1 = (['Iris-setosa','Iris-versicolor','Iris-virginica'],axis= 1) 
+column = (['Class Label'])
+df1 = (['Iris-setosa','Iris-versicolor','Iris-virginica'],(column)) 
 st.table(df1)
 
 st.subheader('Prediction')
