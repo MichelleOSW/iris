@@ -24,10 +24,11 @@ def user_input_features():
             'petal_length': petal_length,
             'petal_width': petal_width}
     features = pd.DataFrame(data, index=[0])
+    st.button('Click me')
     return features
 
 df = user_input_features()
-st.button('Click me')
+
 
 st.subheader('User Input parameters')
 st.write(df)
