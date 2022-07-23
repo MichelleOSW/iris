@@ -7,7 +7,8 @@ st.write("""
 This app predicts the **Iris flower** type!
 """)
 
-image = Image.open('https://miro.medium.com/max/1400/1*f6KbPXwksAliMIsibFyGJw.png')
+from PIL import Image
+image = Image.open('1*f6KbPXwksAliMIsibFyGJw.png')
 st.image(image,caption='Iris Flower')
 
 
