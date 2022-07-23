@@ -24,7 +24,9 @@ def user_input_features():
             'petal_length': petal_length,
             'petal_width': petal_width}
     features = pd.DataFrame(data, index=[0])
-    st.sidebar.button('Click me')
+    st.sidebar.button('Check Result')
+    if st.sidebar.button('Progressing'):
+     st.write('Done')
     return features
 
 df = user_input_features()
