@@ -43,8 +43,9 @@ prediction_proba = clf.predict_proba(df)
 
 
 st.subheader('Class labels and their corresponding index number')
+
 df1 = (['Iris-setosa','Iris-versicolor','Iris-virginica']) 
-st.table(df1)
+st.table(df1.iloc[0:10])
 
 st.subheader('Prediction')
 #st.write(iris.target_names[prediction])
@@ -53,5 +54,3 @@ st.write(prediction)
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
 
-data = open('htmat="audio/wav", start_time=0)tps://www.youtube.com/watch?v=SAh611hDVCc&list=PLRPR8uJQx5tFlsmCP-Bxa9JT7m9u3iiKl&index=2')
-st.audio(data)
